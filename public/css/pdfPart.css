@@ -1,0 +1,40 @@
+.title
+{
+    font-size: 40px;
+}
+
+.contenedor
+{
+    border: solid rgb(0, 136, 255) 3px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.button-pdf
+{
+    text-align: center;
+    width: 250px;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: solid white;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    
+}
+
+.button-pdf:hover
+{
+    background-color:white;
+    color:  rgb(0, 136, 255);
+    border: solid rgb(0, 136, 255);
+}

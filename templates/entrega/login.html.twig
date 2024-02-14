@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <div class="login">
+        <form method="post" action="{{ path('app_enviar') }}">
+            <fieldset class="fieldset-login">
+                <legend class="legend-login">Login</legend>
+                <input  class="input-login" type="text" placeholder="Nickname" name="mensaje">
+                <button class="button-login" type="submit">Entrar</button>
+            </fieldset>
+        </form>
+    </div>
+
+{% endblock %}
